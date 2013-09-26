@@ -39,8 +39,8 @@
 - (instancetype) initWithRouter: (CBL_Router*)router forConnection:(CBLHTTPConnection*)connection {
     self = [super init];
     if (self) {
-        //EnableLog(YES);
-        //EnableLogTo(CBLListenerVerbose, YES);
+        EnableLog(YES);
+        EnableLogTo(CBLListenerVerbose, YES);
         _router = router;
         _connection = connection;
         
